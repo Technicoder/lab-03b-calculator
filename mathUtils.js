@@ -6,3 +6,7 @@ export function addTwoNumbers(someNumber, someOtherNumber) {
     // scope: what variables does this line have access to?
     return someNumber + someOtherNumber;
 }
+
+export function multiplyTwoNumbers(somethingToMultiply, somethingElseToMultiply) {
+    return somethingToMultiply * somethingElseToMultiply;
+}
